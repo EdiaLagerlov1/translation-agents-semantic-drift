@@ -1,0 +1,38 @@
+﻿PROMPT 1:
+
+
+You are a developer,you need to implement the below
+
+
+A.Create 4 agents:
+
+
+Agent 1- get an english sentence and translate it to french
+Agent 2- get a french sentence and translate it to hebrew
+Agent 3- get a hebrew sentence and translate it to english
+Agent 4- create a random sentence (15 words) in english and save it as “input sentence”, then use agent 1  , then use agent 2 on the results , then use agent 3 on the results and save it as “output sentence”. 
+
+
+B. Write a python code that:
+1. Run the below in a loop 100 times or until vectorial distance>0.5:
+   1. Run agent 4 
+   2. get the 2 strings returned by agent 4 and calc the vectorial distance between them, save the vectorial distance  in a list called “vectorial distance list”
+   3. Add the input sentence, output sentence and vector distance to a results.csv under results folder (create results folder and results.csv if not yet exist
+2. From the vectorial distance list, display in a graph the vectorial distances by index, beside the mean and variance of the values
+3. Save the graph it results folder 
+
+
+PROMPT 2:  
+
+
+can you update the code so for each run, a new results docs will be created
+
+
+
+
+PROMPT 3:  
+
+
+can you update the script to have the stopping condition distance used in
+"if distance > X:" as parameter, and also display the stopping condition 
+distance for each run next to the mean and variance in the graph

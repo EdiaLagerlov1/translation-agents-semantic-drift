@@ -1,0 +1,4 @@
+deep-translator
+sentence-transformers
+numpy
+matplotlib
