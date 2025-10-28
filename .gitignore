@@ -41,10 +41,8 @@ ENV/
 .cache/
 models/
 
-# Results (optional - uncomment if you want to exclude results)
+# Results folder tracked in git
 # results/
-results/*.csv
-results/*.png
 
 # Environment variables
 .env
